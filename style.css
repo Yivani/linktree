@@ -46,17 +46,6 @@ h1,
     margin-bottom: 20px;
 }
 
-.content-container a.link {
-    display: block;
-    margin: 15px;
-    text-decoration: none;
-    padding: 10px;
-    background-color: rgba(52, 152, 219, 0.8);
-    color: #fff;
-    border-radius: 5px;
-    width: auto; /* Set width to auto to adjust based on content */
-}
-
 .container {
     display: flex;
     flex-direction: column;
