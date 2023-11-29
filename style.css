@@ -60,12 +60,12 @@ h1,
     width: 80%;
     max-width: 400px;
     margin: 0 auto;
-    text-align: center; /* Center the content */
+    text-align: center;
 }
 
-.link {
+.button-link {
     display: block;
-    width: 250px; /* Adjusted width */
+    width: 250px; /* Adjust the width as needed */
     padding: 10px;
     background-color: white;
     color: black;
