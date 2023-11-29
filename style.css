@@ -58,17 +58,17 @@ h1,
     position: relative;
     z-index: 1;
     width: 40%; /* Adjust the width as needed */
-    max-width: 200px; /* Set a maximum width if desired */
+    max-width: 100px; /* Set a maximum width if desired */
     margin: 0 auto; /* Center the container horizontally */
 }
 
 .link {
     display: block;
-    width: 100%; /* Make links fill the container width */
+    width: 80%; /* Make links fill the container width */
     padding: 10px 20px;
     background-color: white;
     color: black;
     text-decoration: none;
     border-radius: 5px;
-    margin: 5px 0; /* Added margin for spacing between links */
+    margin: 8px 0; /* Added margin for spacing between links */
 }
