@@ -55,11 +55,11 @@ h1,
 }
 
 .link {
-    display: inline-block;
+    display: block;
     padding: 10px 20px;
     background-color: white;
     color: black;
     text-decoration: none;
     border-radius: 5px;
-    margin: 5px;
+    margin: 5px 0; /* Added margin for spacing between links */
 }
