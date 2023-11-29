@@ -57,6 +57,17 @@ h1,
     border-radius: 5px;
 }
 
+.content-container .link {
+    display: block;
+    margin: 15px;
+    text-decoration: none;
+    padding: 10px;
+    width: 200px; /* Adjust the width as needed */
+    background-color: rgba(52, 152, 219, 0.8);
+    color: #fff;
+    border-radius: 5px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
