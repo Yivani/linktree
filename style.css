@@ -51,10 +51,10 @@ h1,
     margin: 15px;
     text-decoration: none;
     padding: 10px;
-    width: 100px; /* Adjust the width as needed */
-    background-color: rgba(52, 152, 219);
+    background-color: rgba(52, 152, 219, 0.8);
     color: #fff;
     border-radius: 5px;
+    width: auto; /* Set width to auto to adjust based on content */
 }
 
 .container {
