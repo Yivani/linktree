@@ -57,8 +57,8 @@ h1,
 .content-container {
     position: relative;
     z-index: 1;
-    width: 80%; /* Adjust the width as needed */
-    max-width: 400px; /* Set a maximum width if desired */
+    width: 40%; /* Adjust the width as needed */
+    max-width: 200px; /* Set a maximum width if desired */
     margin: 0 auto; /* Center the container horizontally */
 }
 
