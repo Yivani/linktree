@@ -8,7 +8,7 @@ body {
 
 #background {
     background: url('background.png') center/cover no-repeat fixed;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -17,9 +17,13 @@ body {
     z-index: -1;
 }
 
-h1 {
-    color: #fff;
+h1,
+#avatar,
+#bio,
+.link {
+    position: relative;
     z-index: 1;
+    color: #fff;
 }
 
 #avatar {
@@ -28,14 +32,11 @@ h1 {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 10px;
-    z-index: 1;
 }
 
 #bio {
-    color: #ccc;
     font-size: 14px;
     margin-bottom: 20px;
-    z-index: 1;
 }
 
 .link {
@@ -46,5 +47,4 @@ h1 {
     background-color: rgba(52, 152, 219, 0.8);
     color: #fff;
     border-radius: 5px;
-    z-index: 1;
 }
