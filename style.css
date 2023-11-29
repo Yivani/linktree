@@ -54,13 +54,21 @@ h1,
     min-height: 100vh;
 }
 
+.content-container {
+    position: relative;
+    z-index: 1;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 400px; /* Set a maximum width if desired */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
 .link {
     display: block;
-    width: 80%; /* Adjust the width as needed */
-    margin: 5px auto; /* Center the links horizontally with margin */
+    width: 100%; /* Make links fill the container width */
     padding: 10px 20px;
     background-color: white;
     color: black;
     text-decoration: none;
     border-radius: 5px;
+    margin: 5px 0; /* Added margin for spacing between links */
 }
