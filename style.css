@@ -3,12 +3,12 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    position: relative; /* added */
 }
 
 #background {
     background: url('background.png') center/cover no-repeat fixed;
-    position: fixed;
+    position: absolute; /* changed from fixed */
     top: 0;
     left: 0;
     width: 100%;
